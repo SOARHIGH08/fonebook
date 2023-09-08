@@ -1,0 +1,130 @@
+.contact-section {
+  background-color: rgb(236, 230, 230);
+  height: 250px;
+  width: 350px;
+  border: 2px solid #a2a1a1;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  box-shadow: 0 0 5px #5555559f;
+  border: 0;
+  outline: 10px solid black;
+  outline-offset: 0px;
+  transition: 500ms;
+}
+.contact-section:hover {
+  outline-offset: 10px;
+  outline-color: white;
+}
+form {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 40px 20px 40px;
+}
+form input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(159, 159, 159);
+}
+.name-container, .mobile-container {
+  display: flex;
+  justify-content: space-between;
+}
+.add-btn {
+  background-color: #2c922c;
+  color: white;
+  padding: 10px;
+  border: 0;
+  border-radius: 25px;
+}
+.add-btn:hover {
+  background-color: #1b7b1b;
+}
+h1 {
+  text-align: center;
+}
+table {
+  margin: 25px auto;    
+  width: 900px;
+  border-collapse: collapse;
+  text-align: center;
+}
+thead {
+  background-color: #b7b7b7;
+}
+td, th {
+  padding: 10px;
+}
+tr th:first-child,
+tr td:first-child {
+  width: 350px; /* You can set the desired width here */
+}
+tr th:last-child,
+tr td:last-child {
+  width: 300px; /* You can set the desired width here */
+}
+tbody tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+.btn-delete,
+.btn-edit,
+.btn-save   {
+  background-color: #cb3131;
+  color: white;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 25px;
+  margin: 0 10px;
+  width: 70px;
+}
+.btn-delete {
+  background-color: #cb3131;
+}
+.btn-edit {
+  background-color: #2c922c;
+}
+.btn-save {
+  background-color: #3540a3;
+}
+.btn-delete:hover {
+  background-color: #b02121;
+}
+.btn-edit:hover {
+  background-color: #1b7b1b;
+}
+.btn-save:hover {
+  background-color: #1f2987;
+}
+input:disabled {
+  border: transparent;
+  background-color: transparent;
+}
+td input {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+button {  
+  box-shadow: 2px 2px 5px #ccc;
+}
+button:active {  
+  box-shadow: inset 2px 2px 5px #2e2e2e;
+}
+button:disabled,
+button:disabled:hover {
+  background-color: #a2a1a1;
+  color: #e1e0e0;
+  box-shadow: inset 2px 2px 5px transparent;
+}
+tbody tr:hover {
+  border: 0;
+  outline: 1px solid rgba(0, 128, 0, 0.374);
+  outline-offset: -1px;
+}
+.err-display {
+  font-style: italic;
+  color: red;
+}
